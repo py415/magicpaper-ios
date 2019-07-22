@@ -11,7 +11,7 @@ import SceneKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
-
+    
     // Outlets
     @IBOutlet var sceneView: ARSCNView!
     
@@ -37,7 +37,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             configuration.trackingImages = trackedImages
             configuration.maximumNumberOfTrackedImages = 1
         }
-
+        
         // Run the view's session
         sceneView.session.run(configuration)
         
@@ -60,8 +60,16 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         if let imageAnchor = anchor as? ARImageAnchor {
             let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height)
+            let videoNode = SKVideoNode(fileNamed: "harrypotter.mp4")
+            let videoScene = SKScene(size: CGSize(width: 480, height: 360))
             
-            plane.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 0.5)
+            videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
+            videoNode.yScale = -1.0
+            videoNode.play()
+            
+            videoScene.addChild(videoScene)
+            
+            plane.firstMaterial?.diffuse.contents = videoScene
             
             let planeNode = SCNNode(geometry: plane)
             
