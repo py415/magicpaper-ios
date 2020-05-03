@@ -52,7 +52,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
-    //MARK: - ARSCNViewDelegate
+    // MARK: - ARSCNViewDelegate
     
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         
