@@ -67,7 +67,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             videoNode.yScale = -1.0
             videoNode.play()
             
-            videoScene.addChild(videoScene)
+            videoScene.addChild(videoNode)
             
             plane.firstMaterial?.diffuse.contents = videoScene
             
