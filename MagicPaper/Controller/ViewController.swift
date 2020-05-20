@@ -12,7 +12,7 @@ import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     
-    // Outlets
+    // MARK: - Outlets
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
@@ -52,7 +52,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
     }
     
-    // MARK: - ARSCNViewDelegate
+    // MARK: - ARSCNViewDelegate Section
     
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         

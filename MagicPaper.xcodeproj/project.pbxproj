@@ -13,7 +13,6 @@
 		72B3DEB222E52C8E0012A92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B3DEB122E52C8E0012A92D /* Assets.xcassets */; };
 		72B3DEB522E52C8E0012A92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B3DEB322E52C8E0012A92D /* LaunchScreen.storyboard */; };
 		72B3DEC122E52D0D0012A92D /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 72B3DEC022E52D0D0012A92D /* harrypotter.mp4 */; };
-		72FCDB602468BFCE00EB5C66 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FCDB5F2468BFCE00EB5C66 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		72B3DEB422E52C8E0012A92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B3DEB622E52C8E0012A92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72B3DEC022E52D0D0012A92D /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
-		72FCDB5F2468BFCE00EB5C66 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 		72B3DEBD22E52C9F0012A92D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				72FCDB5F2468BFCE00EB5C66 /* art.scnassets */,
 				72B3DEB122E52C8E0012A92D /* Assets.xcassets */,
 				72B3DEB322E52C8E0012A92D /* LaunchScreen.storyboard */,
 				72B3DEAE22E52C8C0012A92D /* Main.storyboard */,
@@ -171,7 +168,6 @@
 			files = (
 				72B3DEB522E52C8E0012A92D /* LaunchScreen.storyboard in Resources */,
 				72B3DEC122E52D0D0012A92D /* harrypotter.mp4 in Resources */,
-				72FCDB602468BFCE00EB5C66 /* art.scnassets in Resources */,
 				72B3DEB222E52C8E0012A92D /* Assets.xcassets in Resources */,
 				72B3DEB022E52C8C0012A92D /* Main.storyboard in Resources */,
 			);
