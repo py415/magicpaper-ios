@@ -20,7 +20,7 @@ MagicPaper is an augmented reality app that renders live video on top of images 
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/81513071-816ab000-92da-11ea-9651-af5af44d6114.gif" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/ios/ios-magicpaper.gif" width=250>
 
 ## Credits
 
